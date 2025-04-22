@@ -1,0 +1,28 @@
+{
+    "name": "saucedemo-playwright-e2e",
+    "version": "1.0.0",
+    "description": "End-to-end tests for Saucedemo website using Playwright",
+    "keywords": [
+      "playwright",
+      "e2e",
+      "testing",
+      "saucedemo"
+    ],
+    "author": "Poliv <polivanov.jr@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/Poliv/saucedemo-playwright-e2e",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Poliv/saucedemo-playwright-e2e.git"
+    },
+    "devDependencies": {
+      "@playwright/test": "^1.40.0"
+    },
+    "scripts": {
+      "test": "npx playwright test",
+      "show-report": "npx playwright show-report"
+    },
+    "engines": {
+      "node": ">=16"
+    }
+  }
