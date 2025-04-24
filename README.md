@@ -1,7 +1,7 @@
 1.  Клонируйте репозиторий:
 
     ```bash
-    git add .
+    git clone
     cd saucedemo-playwright-e2e
 
 2.  Установите зависимости:
